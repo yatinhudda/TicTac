@@ -1,0 +1,40 @@
+h1{
+    font-family: "Times New Roman", Times, serif;
+    display:flex;
+    justify-content: center;
+    font-size: 4em;
+  }
+
+  .container{
+      display:flex;
+      justify-content: center;
+      
+  }
+
+  .tictac{
+    background-image: linear-gradient(to bottom right, rgba(172, 91, 238, 0.637), rgba(86, 141, 224, 0.856));
+      height:750px;
+      width: 800px;
+      border-radius: 25px;
+  }
+  .col{
+      height: 200px;
+      width: 200px;
+      background-color: indianred;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .col{
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:8em;
+  }
